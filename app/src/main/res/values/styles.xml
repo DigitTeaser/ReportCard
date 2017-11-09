@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for horizontal border line. -->
+    <style name="HorizontalBorderLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/border_width</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <!-- Style for vertical border line. -->
+    <style name="VerticalBorderLine">
+        <item name="android:layout_width">@dimen/border_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <!-- Style for title text. -->
+    <style name="TitleText">
+        <item name="android:layout_width">@dimen/zero_dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/table_padding</item>
+        <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Style for list text. -->
+    <style name="ListText">
+        <item name="android:layout_width">@dimen/zero_dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/table_padding</item>
+        <item name="android:textSize">@dimen/list_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Style for result text. -->
+    <style name="ResultText">
+        <item name="android:layout_width">@dimen/zero_dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/result_padding</item>
+        <item name="android:textSize">@dimen/result_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+    </style>
+
+</resources>
