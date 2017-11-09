@@ -58,14 +58,14 @@ public class ReportCard {
     /**
      * Set the default subject category.
      */
-    public void setmCategory(String mCategory) {
-        this.mCategory = mCategory;
+    public void setCategory(String Category) {
+        this.mCategory = Category;
     }
 
     /**
      * Set the corresponding grade of the category.
      */
-    public void setmGrade(String mGrade) {
-        this.mGrade = mGrade;
+    public void setGrade(String Grade) {
+        this.mGrade = Grade;
     }
 }
